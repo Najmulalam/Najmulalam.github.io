@@ -1,0 +1,46 @@
+body{background-image: url(Image/grey_wash_wall_@2X.png);background-attachment: fixed;}
+.main{background-color: D7F3F3;
+width: 1200px;margin:0 auto;padding:10px;font-family: 'Roboto', sans-serif;
+font-family: 'Righteous', cursive;font-family: 'Russo One', sans-serif;font-weight: 100;}
+.main h1{color: #53C61A;font-size: 45px ;text-align: center;}
+.colums{overflow:hidden ;background:repeating-linear-gradient(10deg, #5FE4F8, #DFCAB5,#5FE4F8);text-align: center;}
+.s-colum{width: 300px;float: left;margin: 2px;margin-left: 70px;padding-left:10px;font-family: 'Roboto', sans-serif;
+font-family: 'Righteous', cursive;font-family: 'Russo One', sans-serif;font-weight: 100;color: #078D90}
+.menu{background-color: #53C61A; }
+.menu ul{list-style: none;padding: 0px;margin: 0;text-align: center;}
+.menu ul li{display: inline-block;width: 230px}
+.menu ul li a {display: block;color: #fff;padding: 10px;text-decoration:none;font-family: 'Roboto', sans-serif;
+font-family: 'Righteous', cursive;font-family: 'Russo One', sans-serif;font-weight: 400;}
+.menu ul li a:hover{background-color:green; }
+.p1{font-family: 'Indie Flower', cursive;font-family: 'Arvo', serif;font-weight: 400;}
+
+.big-icon{font-size: 50px;color:#53C61A;animation-name: iconbeat;animation-duration: 1s;
+	animation-iteration-count: infinite;} @keyframes iconbeat{100% {color: green;}}
+.big-icon:hover{color: green;}
+
+.wrap {color:  green;}
+input[type="text"],input[type="email"],input[type="tel"],textarea {
+    width: 70%;
+    padding: 10px;
+    border: 1px solid #ddd;}
+input[type="text"]:focus,input[type="email"]:focus,input[type="tel"]:focus,input[type="Date"]:focus,textarea:focus,
+select:focus{outline: none;border-color: green}
+fieldset{width: 68%;padding: 10px;border: 1.5px solid green}
+
+input[type="submit"] {padding:  10px;color: #fff;background:  #53C61A;margin-right: 420px;animation-name: heartbeat;
+	  animation-duration: 1s;animation-iteration-count: infinite;}
+       @keyframes heartbeat{100% {background-color: green}}
+input[type="submit"]:focus{outline-color:#00AEDD}
+input[type="submit"]:hover {background-color: green}
+.flex{display: flex;}
+
+audio {width: 300px;height: 30px;margin-top: 26.50px;}
+
+.main h2{color:green;font-size: 30px;text-align: center; 
+	     background:repeating-linear-gradient(10deg, #5FE4F8, #DFCAB5,#5FE4F8); 
+	     animation-name: aboutbeat;animation-duration: 1s;animation-iteration-count: infinite;} 
+	         @keyframes aboutbeat{100% {color: #53C61A;}}
+
+iframe{width: 1200px ;border:2px solid green;}
+
+
